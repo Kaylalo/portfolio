@@ -197,40 +197,17 @@ svg {
   margin-top: 5px;
 }
 
-.footer {
-  background: lightblue;
-  color: grey;
-  padding: 2.5em 0;
-  font-size: small;
-}
-
-.footer a {
-  color: inherit;
+.social-icon {
+  color: rgb(96, 185, 214);
+  transition: color 0.2;
   text-decoration: none;
-  float: right;
+  margin: 0 10px;
+  font-size: 30px;
+  width: 50px;
 }
 
-.footer_link {
-  font-weight: bold;
+.social-icon:hover {
+  color: blue; 
 }
 
-.footer_link:hover,
-.social-list_link:hover {
-  opacity: 0.7;
-}
-.footer_link:hover {
-  text-decoration: underline;
-}
-.social-list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 2em 0;
-  padding: 0;
-}
-.social-list_item {
-  margin: 0.5em;
-}
-.social-list_link {
-  padding: 0.5em;
-}
+
